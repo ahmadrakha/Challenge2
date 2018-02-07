@@ -1,0 +1,8 @@
+use_bpm 250
+use_synth :piano
+x=21
+87.times do
+  play x
+  sleep 1
+  x=x+1
+end
